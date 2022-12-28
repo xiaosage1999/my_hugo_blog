@@ -1,6 +1,6 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
+title: "First"
+date: 2022-12-28T21:41:02+08:00
 # weight: 1
 # aliases: ["/first"]
 tags: ["first"]
@@ -8,7 +8,7 @@ author: "Me"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: true
-draft: false
+draft: true
 hidemeta: false
 comments: false
 description: "Desc Text."
@@ -35,3 +35,12 @@ editPost:
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
+
+# h1
+## h2
+### h3
+
+This is **bold** text, and this is *emphasized* text.
+
+Visit the [Hugo](https://gohugo.io) website!
+[draft]
