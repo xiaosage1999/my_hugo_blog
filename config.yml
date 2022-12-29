@@ -58,12 +58,12 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
-    imageWidth: 120
-    imageHeight: 120
+    enabled: true # needs to be explicitly set
+    title: Leiyx's Blog
+    subtitle: "实迷途其未远，觉今是而昨非"
+    imageUrl: "https://lei-typora-image.oss-cn-chengdu.aliyuncs.com/itachi.png"
+    imageWidth: 200
+    imageHeight: 200
     imageTitle: my image
     buttons:
       - name: Posts
@@ -78,7 +78,11 @@ params:
 
   socialIcons:
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/leiyx"
+    - name: QQ
+      url: "img/qq.png"
+    - name: email
+      url: "mailto:770567756@qq.com"
 
   analytics:
     google:
@@ -89,8 +93,8 @@ params:
       SiteVerificationTag: "XYZabc"
 
   cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: false # hide on list pages and home
     hiddenInSingle: true # hide on single page
 
   editPost:
@@ -130,10 +134,9 @@ menu:
       name: 归档
       url: archives/
       weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
-      weight: 30
+    - name: 资源
+      url: res
+      weight: 20
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
