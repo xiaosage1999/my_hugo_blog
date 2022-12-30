@@ -1,9 +1,9 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
+title: "「C++」Atomic - 内存序列"
+date: 2022-12-30T13:20:26+08:00
 # weight: 1
-tags: ["first"]
-author: "Me"
+tags: ["C++","并发"]
+author: "lei"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: true

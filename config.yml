@@ -17,7 +17,9 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: leiyx's blog
-  description: "实迷途其未远，觉今是而昨非"
+  description: "合抱之木，生于毫末；
+  九层之台，起于累土；
+  千里之行，始于足下。"
   keywords: [Blog, C++, PaperMod]
   author: leiyx
   # author: ["Me", "You"] # multiple authors
@@ -60,7 +62,7 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: Leiyx's Blog
-    subtitle: "实迷途其未远，觉今是而昨非"
+    subtitle: "合抱之木，生于毫末；九层之台，起于累土；千里之行，始于足下。"
     imageUrl: "https://lei-typora-image.oss-cn-chengdu.aliyuncs.com/itachi.png"
     imageWidth: 200
     imageHeight: 200
@@ -74,13 +76,15 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Content: "合抱之木，生于毫末；九层之台，起于累土；千里之行，始于足下。"
 
   socialIcons:
     - name: github
       url: "https://github.com/leiyx"
     - name: QQ
       url: "img/qq.png"
+    - name: WeChat
+      url: "img/wechat.png"
     - name: email
       url: "mailto:770567756@qq.com"
 
@@ -136,6 +140,7 @@ menu:
       weight: 20
     - name: 资源
       url: res
+      # res.html错误， 写个res就行
       weight: 20
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true

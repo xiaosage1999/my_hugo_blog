@@ -1,9 +1,10 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
+title: "「C++」RAII"
+date: 2022-12-29T23:01:32+08:00
 # weight: 1
-tags: ["first"]
-author: "Me"
+# aliases: ["/first"]
+tags: ["C++"]
+author: "lei"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: true
@@ -16,7 +17,7 @@ disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false
 hideSummary: false
-searchHidden: true
+searchHidden: false
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
@@ -24,7 +25,7 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 cover:
-    image: "" # image path/url
+    image: "https://lei-typora-image.oss-cn-chengdu.aliyuncs.com/image-20221016020010855.png" # image path/url
     alt: "<alt text>" # alt text
     caption: "<text>" # display caption under cover
     relative: false # when using page bundles set this to true

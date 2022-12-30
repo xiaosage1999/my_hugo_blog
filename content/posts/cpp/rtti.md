@@ -1,13 +1,14 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
+title: "「C++」RTTI"
+date: 2022-12-29T23:04:46+08:00
 # weight: 1
-tags: ["first"]
-author: "Me"
+# aliases: ["/first"]
+tags: ["C++"]
+author: "lei"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: true
-draft: true
+draft: false
 hidemeta: false
 comments: false
 description: "Desc Text."

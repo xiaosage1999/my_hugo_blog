@@ -1,8 +1,8 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
+title: "「C++」宏"
+date: 2022-12-30T13:08:46+08:00
 # weight: 1
-tags: ["first"]
+tags: ["C++"]
 author: "Me"
 # author: ["Me", "You"] # multiple authors
 showToc: true

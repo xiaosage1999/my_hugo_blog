@@ -1,16 +1,15 @@
 ---
-title: "First"
-date: 2022-12-28T21:41:02+08:00
+title: "「口吃」认识口吃"
+date: 2022-12-30T13:17:16+08:00
 # weight: 1
-# aliases: ["/first"]
-tags: ["first"]
-author: "Me"
+tags: ["口吃"]
+author: "lei"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: true
 draft: true
 hidemeta: false
-comments: true
+comments: false
 description: "Desc Text."
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
@@ -25,7 +24,7 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 cover:
-    image: "img/go2.png" # image path/url
+    image: "" # image path/url
     alt: "<alt text>" # alt text
     caption: "<text>" # display caption under cover
     relative: false # when using page bundles set this to true
@@ -35,12 +34,3 @@ editPost:
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
-
-# h1
-## h2
-### h3
-
-This is **bold** text, and this is *emphasized* text.
-
-Visit the [Hugo](https://gohugo.io) website!
-[draft]
