@@ -139,7 +139,7 @@ menu:
       url: archives/
       weight: 20
     - name: 资源
-      url: res
+      url: /res.html
       # res.html错误， 写个res就行
       weight: 20
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
